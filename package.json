@@ -1,0 +1,31 @@
+{
+  "name": "tailwind-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "tailwindBuild": "postcss build ./tailwind.css -o ./src/styles/main.css",
+    "build": "parcel build index.html --out-dir dist --public-url ./",
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel index.html --out-dir development -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaharafat/tailwind-parcel-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Shah Arafat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shaharafat/tailwind-parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Shaharafat/tailwind-parcel-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/runtime-corejs3": "^7.10.1",
+    "autoprefixer": "^9.8.0",
+    "parcel-bundler": "^1.12.4",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
