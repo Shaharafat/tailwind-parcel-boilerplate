@@ -34,7 +34,7 @@ After installing all dependencies, you need to extract TailwindCSS styles. Type 
 ```
 npm run tailwindBuild
 ```
-This will create an "styles" folder inside a "src" folder. Inside of "src" folder, it will create `main.css` file,
+This will create an `"styles"` folder inside a `"src"` folder. Inside of `"src"` folder, it will create `main.css` file,
 which contains all the tailwindcss styles.
 
 ### Start Server
@@ -44,6 +44,15 @@ To start server you need to type -
 ```
 npm run dev
 ```
+
+This will start a live server on port 3000. If you make any change in your code, it will update instantly and you will be able to 
+see it using your browser. Type - 
+
+```
+localhost:3000
+```
+
+to see live output in your browser.
 
 ### Bundle project
 
